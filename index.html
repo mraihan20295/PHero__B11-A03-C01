@@ -39,7 +39,7 @@
     </header>
 
     <!-- Main -->
-    <main>
+    <main class="relative">
         <!-- Hero Section -->
         <section class="wrapper grid my-16 hero">
             <div class="max-w-screen-sm hero__content">
@@ -118,7 +118,7 @@
                 <div class="grid   gap-8">
 
                     <div
-                        class="bg-[var(--color-primary)] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom rounded-xl pl-8 pr-12 pt-12 min-h-[402px]   ">
+                        class="bg-[var(--color-primary)] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom rounded-xl pl-8 pr-12 pt-12 min-h-[402px]">
                         <h3 class="text-3xl">T- Shirt For Dogs</h3>
                         <p class="text-base my-5">
                             Discover a world of treats, toys, and essentials handpicked for
@@ -246,10 +246,71 @@
                 </div>
             </div>
         </section>
+
+        <!-- Everyday Low Price Section -->
+        <section class="wrapper py-32">
+            <h2 class="mb-9">Everyday low Price</h2>
+            <div class="grid min-[1260px]:grid-cols-[1.5fr_1fr] gap-7">
+                <div
+                    class="price-card-1 flex flex-col min-h-[480px] max-[1260px]:block max-[1260px]:pt-14 max-[1260px]:pb-0 justify-center py-32 pl-20 rounded-xl">
+                    <span class="max-[1260px]:hidden">Under Price</span>
+                    <h3 class="text-[2rem]">Pet Grooming Mitt</h3>
+                    <span class="text-white text-2xl max-[1260px]:hidden">(Easy Hair Removal)</span>
+                    <span class="font-[ADLaM_Display,_sans-serif] text-[3.5rem] max-[1260px]:text-white">$7.99</span>
+                </div>
+                <div class="price-card-2 min-h-[480px] pt-14 pl-12 rounded-xl">
+                    <h3 class="text-[2rem]">T-Shirt for Dogs</h3>
+                    <span
+                        class="font-[ADLaM_Display,_sans-serif] text-[3.5rem] text-[var(--color-primary)]">$7.99</span>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="bg-[var(--color-primary)] ">
+        <!-- Newsletter -->
+        <section
+            class="wrapper rounded-2xl bg-[var(--color-secondary)] px-20 py-9 grid grid-cols-[1fr_1.5fr] gap-8  -translate-y-1/2 mt-[232px] mb-[-232px]">
+            <img src="assets/cute-pet-mid.png" alt="">
+            <div class="flex flex-col justify-center gap-3">
+                <h2>Get Pawsome News!</h2>
+                <p>Exclusive training tips, ticks, product deals and more.</p>
+                <form action="">
+                    <input type="email" value="" class="bg-white p-5 rounded-lg w-full max-w-[472px]"
+                        placeholder="Enter email...." required>
+                    <button type="submit" class="btn btn--primary mt-8">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <nav class="wrapper py-32 grid grid-cols-3 justify-evenly">
+            <div>
+                <a href="#" class="site-logo flex items-center gap-3">
+                    <img src="assets/logo-footer.png" alt="">
+                    <p class="text-[26px]">Browse<span class="text-[var(--color-primary)]">4</span>Pets</p>
+                </a>
+                <p>
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends
+                </p>
+            </div>
 
+            <ul class="flex flex-col gap-8 ml-auto">
+                <li><a href="#" class="link">Find a pet</a></li>
+                <li><a href="#">Breeds</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+            <div class="self-end">
+                <span>Follow Us</span>
+                <ul class="flex gap-8">
+                    <li><a href=""><img src="assets/facebook-icon.png" alt=""></a></li>
+                    <li><a href=""><img src="assets/instagram-icon.png" alt=""></a></li>
+                    <li><a href=""><img src="assets/linkedin-icon.png" alt=""></a></li>
+                    <li><a href=""><img src="assets/youtube-icon.png" alt=""></a></li>
+                </ul>
+            </div>
+
+        </nav>
     </footer>
 </body>
 

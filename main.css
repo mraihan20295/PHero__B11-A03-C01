@@ -74,3 +74,26 @@ h2 {
   transform: translateY(-50%);
   top: 0;
 }
+
+/* Everyday Low price */
+
+.price-card-1 {
+  background: url(assets/cute-dog-mid.png),
+    linear-gradient(109deg, #f8ccfb 1.27%, #acd2fd 100%);
+  background-repeat: no-repeat;
+  background-size: contain, auto;
+  background-position: right bottom;
+}
+
+@media (max-width: 1260px) {
+  .price-card-1 {
+    background-size: 214px auto, auto;
+  }
+}
+
+.price-card-2 {
+  background: url(assets/cute-pet-mid.png),
+    linear-gradient(109deg, #fff9f4 1.27%, #f9df8a 100%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
