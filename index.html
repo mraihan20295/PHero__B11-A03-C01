@@ -12,7 +12,7 @@
 <body>
     <header class="bg-[var(--color-secondary)] py-5">
         <!-- Navigation -->
-        <nav class="container flex items-center gap-8">
+        <nav class="wrapper flex items-center gap-8">
             <a href="#" class="site-logo flex items-center gap-3">
                 <img src="assets/logo-header.png" alt="">
                 <p class="text-[26px]">Browse<span class="text-[var(--color-primary)]">4</span>Pets</p>
@@ -41,8 +41,8 @@
     <!-- Main -->
     <main>
         <!-- Hero Section -->
-        <section class="container relative my-16">
-            <div class="max-w-screen-sm">
+        <section class="wrapper grid my-16 hero">
+            <div class="max-w-screen-sm hero__content">
                 <h1>Pamper Your Pet, Because They Deserve the Best</h1>
                 <p class="my-4">
                     Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
@@ -51,7 +51,200 @@
                 </p>
                 <a href="#" class="btn btn--primary mt-6">Find a pet</a>
             </div>
-            <img class="absolute top-0 -z-10" src="assets/cat-big.png" alt="">
+            <div class="relative hero__pic">
+                <img class="hero__image" src="assets/cat-big_cropped.png" alt="">
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="wrapper mb-20">
+            <h2>Browse By Categories</h2>
+            <div class="mt-12 grid grid-cols-[repeat(auto-fill,_minmax(200px,_1fr))] gap-6">
+                <div
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
+                        <img src="assets/dog-cartoon.png" alt="">
+                    </div>
+                    <h3 class="mt-3">Dog</h3>
+                    <span>3 items</span>
+                </div>
+                <div
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
+                        <img src="assets/dog-cartoon.png" alt="">
+                    </div>
+                    <h3 class="mt-3">Dog</h3>
+                    <span>3 items</span>
+                </div>
+                <div
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
+                        <img src="assets/dog-cartoon.png" alt="">
+                    </div>
+                    <h3 class="mt-3">Dog</h3>
+                    <span>3 items</span>
+                </div>
+                <div
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
+                        <img src="assets/dog-cartoon.png" alt="">
+                    </div>
+                    <h3 class="mt-3">Dog</h3>
+                    <span>3 items</span>
+                </div>
+                <div
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
+                        <img src="assets/dog-cartoon.png" alt="">
+                    </div>
+                    <h3 class="mt-3">Dog</h3>
+                    <span>3 items</span>
+                </div>
+                <div
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
+                        <img src="assets/dog-cartoon.png" alt="">
+                    </div>
+                    <h3 class="mt-3">Dog</h3>
+                    <span>3 items</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trending Pet Products -->
+        <section class="bg-[var(--color-secondary)] py-32">
+            <div class="wrapper">
+                <h2 class="mb-12">Trending Pet Products</h2>
+                <div class="grid   gap-8">
+
+                    <div
+                        class="bg-[var(--color-primary)] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom rounded-xl pl-8 pr-12 pt-12 min-h-[402px]   ">
+                        <h3 class="text-3xl">T- Shirt For Dogs</h3>
+                        <p class="text-base my-5">
+                            Discover a world of treats, toys, and essentials handpicked for
+                        </p>
+                        <a href="#" class="btn bg-white">Shop Now</a>
+                    </div>
+
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
+                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
+                            <img src="assets/dog-cartoon.png" alt="">
+                        </div>
+                        <div>
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/rating-icon.svg" alt="">
+                                <span class="text-base">4.5</span>
+                            </div>
+                            <h3>Pet Bed</h3>
+                            <p class="text-base">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
