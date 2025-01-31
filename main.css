@@ -2,5 +2,43 @@
 
 :root {
   --color-primary: #ffdc26;
-  --color-secondary: #ffdc26;
+  --color-secondary: #fff9f4;
+}
+
+*,
+*::before,
+*::after {
+}
+
+/* Page Container */
+
+.container {
+  width: min(1320px, 85%);
+  margin-inline: auto;
+}
+
+body {
+  font-family: Sora, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "ADLaM Display", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.625rem 1.875rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+}
+
+.btn--outline {
+  border: 1px solid var(--color-primary);
 }

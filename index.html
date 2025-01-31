@@ -6,15 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country's First Online Pet Shop | BrowsePets</title>
     <link rel="stylesheet" href="main.css">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <header>
+    <header class="bg-[var(--color-secondary)] py-5">
+        <!-- Navigation -->
+        <nav class="container flex items-center gap-8">
+            <a href="#" class="site-logo flex items-center gap-3">
+                <img src="assets/logo-header.png" alt="">
+                <p class="text-[26px]">Browse<span class="text-[var(--color-primary)]">4</span>Pets</p>
+            </a>
 
+            <ul class="flex gap-8 ml-auto">
+                <li><a href="#" class="link">Find a pet</a></li>
+                <li><a href="#">Breeds</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+            <div class="flex gap-3 ml-auto">
+                <button>
+                    <img src="assets/bell-icon.svg" alt="">
+                </button>
+                <button>
+                    <img src="assets/search-icon.svg" alt="">
+                </button>
+                <a href="#" class="btn btn--outline">Login</a>
+                <a href="#" class="btn btn--primary">Register</a>
+            </div>
+
+        </nav>
     </header>
 
+    <!-- Main -->
     <main>
 
     </main>
