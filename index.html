@@ -15,25 +15,28 @@
         <nav class="wrapper flex items-center gap-8">
             <a href="#" class="site-logo flex items-center gap-3">
                 <img src="assets/logo-header.png" alt="">
-                <p class="text-[26px]">Browse<span class="text-[var(--color-primary)]">4</span>Pets</p>
+                <p class="text-[26px] max-[500px]:hidden">Browse<span class="text-[var(--color-primary)]">4</span>Pets
+                </p>
             </a>
 
-            <ul class="flex gap-8 ml-auto">
-                <li><a href="#" class="link">Find a pet</a></li>
-                <li><a href="#">Breeds</a></li>
-                <li><a href="#">Contact us</a></li>
+            <ul class="flex gap-8 max-[1300px]:hidden ml-auto font-medium has-[:hover]-text-[var(--color-primary)]">
+                <li><a href="#" class="hover:text-[var(--color-primary)] transition duration-200">Find a pet</a></li>
+                <li><a href="#" class="hover:text-[var(--color-primary)] transition duration-200">Breeds</a></li>
+                <li><a href="#" class="hover:text-[var(--color-primary)] transition duration-200">Contact us</a></li>
             </ul>
 
             <div class="flex gap-3 ml-auto">
-                <button>
+                <button class="max-[1300px]:hidden">
                     <img src="assets/bell-icon.svg" alt="">
                 </button>
-                <button>
+                <button class="max-[1300px]:hidden">
                     <img src="assets/search-icon.svg" alt="">
                 </button>
-                <a href="#" class="btn btn--outline">Login</a>
-                <a href="#" class="btn btn--primary">Register</a>
+                <a href="#" class="btn btn--outline max-[800px]:!hidden">Login</a>
+                <a href="#" class="btn btn--primary max-[800px]:!hidden">Register</a>
             </div>
+
+            <a href="" class="p-[18px] shadow-sm rounded-lg bg-white"><img src="assets/menu-icon.png" alt=""></a>
 
         </nav>
     </header>
