@@ -5,11 +5,6 @@
   --color-secondary: #fff9f4;
 }
 
-*,
-*::before,
-*::after {
-}
-
 /* Page Container */
 
 .wrapper {
@@ -65,12 +60,6 @@ h2 {
   background-position: right bottom;
 }
 
-@media (max-width: 1260px) {
-  .price-card-1 {
-    background-size: 214px auto, auto;
-  }
-}
-
 .price-card-2 {
   background: url(assets/cute-pet-mid.png),
     linear-gradient(109deg, #fff9f4 1.27%, #f9df8a 100%);
@@ -78,6 +67,9 @@ h2 {
   background-position: right bottom;
 }
 
-/* .test {
-  border: 1px solid #1111111a;
-} */
+@media (max-width: 1260px) {
+  .price-card-1,
+  .price-card-2 {
+    background-size: auto 268px, auto;
+  }
+}
