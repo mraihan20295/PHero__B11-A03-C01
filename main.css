@@ -79,6 +79,14 @@ h2 {
   scale: 0 1;
   transform-origin: left;
   animation: scroll-watcher linear;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 199, 55, 1) 0%,
+    rgba(255, 220, 38, 1) 25%,
+    rgba(255, 199, 55, 1) 50%,
+    rgba(255, 220, 38, 1) 75%,
+    rgba(255, 199, 55, 1) 100%
+  );
   animation-timeline: scroll();
 }
 
