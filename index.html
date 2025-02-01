@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Country's First Online Pet Shop | BrowsePets</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
-    <header class="bg-[var(--color-secondary)] py-5">
+    <div class="scroll-watcher h-2 fixed top-0 z-50 bg-[var(--color-primary)] w-full"></div>
+    <header
+        class="bg-[var(--color-secondary)] py-5 fixed top-0 z-40 w-full border-b-2 border-[var(--color-primary)] shadow-sm">
         <!-- Navigation -->
-        <nav class="wrapper flex items-center gap-8">
+        <nav class="wrapper flex items-center gap-8 ">
             <a href="#" class="site-logo flex items-center gap-3">
                 <img src="assets/logo-header.png" alt="">
                 <p class="text-[26px] max-[500px]:hidden">Browse<span class="text-[var(--color-primary)]">4</span>Pets
                 </p>
             </a>
 
-            <ul class="flex gap-8 max-[1300px]:hidden ml-auto font-medium has-[:hover]-text-[var(--color-primary)]">
+            <ul
+                class="flex gap-8 max-[1300px]:hidden ml-auto font-medium has-[:hover]-text-[var(--color-primary)] text-xl">
                 <li><a href="#" class="hover:text-[var(--color-primary)] transition duration-200">Find a pet</a></li>
                 <li><a href="#" class="hover:text-[var(--color-primary)] transition duration-200">Breeds</a></li>
                 <li><a href="#" class="hover:text-[var(--color-primary)] transition duration-200">Contact us</a></li>
@@ -43,19 +47,22 @@
     </header>
 
     <!-- Main -->
-    <main class="relative">
+    <main class="pt-14 max-md:pt-24">
         <!-- Hero Section -->
         <section
-            class="wrapper mt-8 md:mt-16 mb-14 md:mb-32 min-h-[400px] sm:min-h-[450px] md:min-h-[650px] lg:min-h-[700px] bg-contain bg-no-repeat bg-right-bottom bg-[url(assets/cat-big_cropped.png)]">
+            class="wrapper mt-8 md:mt-16 mb-14 md:mb-32 min-h-[400px] sm:min-h-[450px] md:min-h-[650px] lg:min-h-[700px] bg-contain bg-no-repeat bg-right-bottom bg-[url(assets/cat-big_cropped.png)] animate__animated animate__fadeIn">
             <div class="max-w-screen-sm">
-                <h1 class="text-[2rem] md:text-[3.5rem] leading-normal">Pamper Your Pet, Because They Deserve the Best
+                <h1 class="text-[2rem] md:text-[3.5rem] leading-normal max-md:max-w-[20ch]">Pamper Your Pet, Because
+                    They
+                    Deserve
+                    the Best
                 </h1>
                 <p class="my-4 md:text-xl">
                     Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and
                     make
                     tails wag with joy!
                 </p>
-                <a href="#" class="btn btn--primary mt-6">Find a pet</a>
+                <a href="#" class="btn btn--primary mt-6 animate-pulse">Find a pet</a>
             </div>
         </section>
 
@@ -64,7 +71,7 @@
             <h2>Browse By Categories</h2>
             <div class="mt-8 md:mt-12 grid grid-cols-[repeat(auto-fit,_minmax(170px,_1fr))] gap-6">
                 <div
-                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
+                    class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center animate__animated animate__fadeIn">
                     <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
                         <img src="assets/dog-cartoon.png" alt="">
                     </div>

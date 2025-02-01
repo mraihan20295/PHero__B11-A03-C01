@@ -73,3 +73,17 @@ h2 {
     background-size: auto 268px, auto;
   }
 }
+
+/* Animations */
+.scroll-watcher {
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}
