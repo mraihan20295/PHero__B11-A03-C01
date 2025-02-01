@@ -62,7 +62,7 @@
         <!-- Categories -->
         <section class="wrapper mb-14 md:mb-32">
             <h2>Browse By Categories</h2>
-            <div class="mt-8 md:mt-12 grid grid-cols-[repeat(auto-fill,_minmax(170px,_1fr))] gap-6">
+            <div class="mt-8 md:mt-12 grid grid-cols-[repeat(auto-fit,_minmax(170px,_1fr))] gap-6">
                 <div
                     class="bg-[var(--color-primary)] rounded-xl px-12 py-9 flex flex-col gap-3 justify-center items-center">
                     <div class="w-24 h-24 flex justify-center items-center bg-white rounded-full">
@@ -115,137 +115,133 @@
         </section>
 
         <!-- Trending Pet Products -->
-        <section class="bg-[var(--color-secondary)] py-32">
+        <section class="bg-[var(--color-secondary)] py-14 md:py-32">
             <div class="wrapper">
-                <h2 class="mb-12">Trending Pet Products</h2>
-                <div class="grid   gap-8">
+                <h2 class="mb-12 md:leading-none">Trending Pet Products</h2>
+                <div class="grid grid-cols-2 lg:max-[1450px]:grid-cols-4 min-[1450px]:grid-cols-5 gap-4 md:gap-6">
 
                     <div
-                        class="bg-[var(--color-primary)] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom rounded-xl pl-8 pr-12 pt-12 min-h-[402px]">
-                        <h3 class="text-3xl">T- Shirt For Dogs</h3>
-                        <p class="text-base my-5">
+                        class="bg-[var(--color-primary)] bg-[url(assets/cute-pet-small.png)] bg-no-repeat bg-right-bottom rounded-xl pl-8 pr-12 pt-12 min-h-[402px] max-sm:col-span-2 sm:row-span-4  lg:col-span-2 md:row-span-3">
+                        <h3 class="text-2xl md:text-3xl">T- Shirt For Dogs</h3>
+                        <p class="text-sm md:text-base my-5">
                             Discover a world of treats, toys, and essentials handpicked for
                         </p>
                         <a href="#" class="btn bg-white">Shop Now</a>
                     </div>
 
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
+                    <div
+                        class="flex gap-2 md:gap-4 p-2 md:p-4 bg-white rounded-xl border border-solid border-[#1111111a]">
+                        <div class="rounded-xl p-3 md:p-5 bg-[var(--color-secondary)]">
+                            <img class="max-[768px]:w-[30px]" src="assets/dog-cartoon.png" alt="">
                         </div>
                         <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
+                            <div class="flex gap-2 md:gap-3 items-center">
+                                <img class="w-[11.5px] md:w-[18px]" src="assets/rating-icon.svg" alt="">
+                                <span class="text-[0.625rem] md:text-base">4.5</span>
                             </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
+                            <h3 class="text-xs md:text-xl">Pet Bed</h3>
+                            <p class="text-[0.625rem] md:text-base">$39.99</p>
                         </div>
                     </div>
-                    <div class="flex gap-4 p-4 bg-white rounded-xl border border-solid border-gray-500">
-                        <div class="rounded-xl p-5 bg-[var(--color-secondary)]">
-                            <img src="assets/dog-cartoon.png" alt="">
-                        </div>
-                        <div>
-                            <div class="flex gap-3 items-center">
-                                <img src="assets/rating-icon.svg" alt="">
-                                <span class="text-base">4.5</span>
-                            </div>
-                            <h3>Pet Bed</h3>
-                            <p class="text-base">$39.99</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
